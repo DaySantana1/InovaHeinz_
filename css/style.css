@@ -33,20 +33,19 @@ a {
     color: var(--light);
 }
 
+/* container */
+
 .container {
     width: 100%;
-    min-height: 70vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
-
 /* formatação header */
-.pagina1{
+.home{
     background: url(../images/fundohero.png);
-    
 }
 
 .header{
@@ -78,6 +77,10 @@ a {
     width: 20rem;
 }
 
+.hero{
+    min-height: 80vh;
+}
+
 .btn-colaborador{
     background-color: var(--dark-blue);
     padding: 1rem;
@@ -85,13 +88,14 @@ a {
     font-size: 1.5rem;
 }
 
+
 .main-hero {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 50vh;
+    height: 60vh;
 }
 
 .hraft-heinz-hero{
