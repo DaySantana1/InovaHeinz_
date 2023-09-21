@@ -1,0 +1,21 @@
+/* reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* variáveis*/
+:root {
+    --dark-blue: #1D3C6D;
+}
+
+/* Formatações genéricas */
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
