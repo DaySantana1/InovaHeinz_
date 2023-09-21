@@ -8,14 +8,105 @@
 /* variáveis*/
 :root {
     --dark-blue: #1D3C6D;
+    --light: #fff;
+    --red: #E32726;
 }
 
 /* Formatações genéricas */
 body {
     font-family: 'Rubik', sans-serif;
+    background-color: var(--dark-blue);
 }
 
 html {
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
+a {
+    text-decoration: none;
+    color: var(--light);
+    font-size: 1rem;
+}
+
+.esg-page p{
+    color: var(--light);
+}
+
+.container {
+    width: 100%;
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* formatação header */
+.pagina1{
+    background: url(../images/fundohero.png);
+    
+}
+
+.header{
+    display: flex;
+    
+    /* posição inicial dos filhos */
+    flex-direction: row;
+
+    /* alinhamento horizontal */
+    justify-content: space-between;
+
+    padding: 0.5rem 2rem;
+
+    /* alinhamento vertical */
+    align-items: center;
+
+    /* posicionando o menu */
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.inova-heinz-header{
+    width: 17rem;
+}
+
+.img-header{
+    width: 20rem;
+}
+
+.btn-colaborador{
+    background-color: var(--dark-blue);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.main-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50vh;
+}
+
+.hraft-heinz-hero{
+    width:22rem;
+}
+
+.btn-cadastro{
+    background-color: var(--red);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+.hero-text{
+    font-size: 1.5rem;
+    width: 100vh;
+}
