@@ -97,7 +97,8 @@ a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 60vh;
+    height: 45vh;
+    /* margin: 3rem 0; */
 }
 
 .hraft-heinz-hero{
@@ -116,6 +117,28 @@ a {
     font-size: 1.5rem;
     width: 100vh;
 }
+
+.inova-heinz-hero1, .inova-heinz-hero2{
+ width: 23rem;
+ position: relative;
+
+ 
+}
+
+.inova-heinz-hero1{
+    margin: 0 3rem;
+    position: relative;
+}
+
+.images-hero{
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    
+    flex-direction: row;
+    align-items: center;
+}
+
 
 /* esg apresentação */
 
@@ -136,10 +159,30 @@ a {
 .text-esg{
     font-size: 1.5rem;
     width: 100vh;
-    padding: 5rem;
+    margin: 8rem;
 }
 
-.esg-images img{ 
+.img-comunidade, .img-gestao, .img-ambiente{
     width: 10rem;
-    justify-content: space-between;
+}
+
+
+.esg-images{
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    
+    flex-direction: row;
+
+    align-items: center;
+    margin: 6rem;
+   
+}
+
+.footer{
+    width: 100%
+}
+.footer img{
+    width: 15rem;
+    margin-top: 8rem;
 }
