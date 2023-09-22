@@ -6,3 +6,14 @@
 .formulario{
     width: 50%;
 }
+
+.div {
+    display: flex;
+    justify-content: center;
+}
+
+
+.texto{
+
+    color: #1D3B6D;
+}
