@@ -17,3 +17,19 @@
 
     color: #1D3B6D;
 }
+
+.img3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 20px; /
+    margin-left: 20px; 
+}
+
+.img4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px; /* Ajuste o valor da margem conforme necessário para aumentar ou diminuir o espaçamento */
+    margin-right: 20px; /* Ajuste o valor da margem conforme necessário para aumentar ou diminuir o espaçamento */
+}
