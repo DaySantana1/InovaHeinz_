@@ -37,6 +37,7 @@ a {
 
 .container{
     width: 100%;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -50,31 +51,23 @@ a {
 
 .header{
     display: flex;
-    
-    /* posição inicial dos filhos */
-    flex-direction: row;
-
-    /* alinhamento horizontal */
-    justify-content: space-between;
-
-    padding: 4rem 8rem;
-
-    /* alinhamento vertical */
     align-items: center;
-
-    /* posicionando o menu */
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 4rem 8rem;
     position: relative;
-    top: 0;
-    left: 0;
-    z-index: 1;
 }
 
 .inova-heinz-header{
-    width: 17rem;
+    width: 22rem;
 }
 
 .img-header{
     width: 22rem;
+    
+    text-align: center;
+
 }
 
 /* hero */
@@ -101,7 +94,6 @@ a {
     justify-content: center;
     text-align: center;
     height: 45vh;
-    
 }
 
 .hraft-heinz-hero{
@@ -110,34 +102,32 @@ a {
 
 .btn-cadastro{
     background-color: var(--red);
-    padding: 0.5rem 1rem;
+    padding: 1rem;
     border-radius: 0.5rem;
-    font-size: 1.5rem;
-    margin: 4rem;
+    font-size: 2rem;
 }
 
 .hero-text{
     font-size: 2rem;
     width: 60vh;
-}
-
-.inova-heinz-hero1, .inova-heinz-hero2{
- width: 30rem;
- position: relative;
-
- 
+    margin: 5rem 0;
 }
 
 .inova-heinz-hero1{
-    margin: 0 3rem;
+    margin: 0 5rem;
+    width: 33rem;
     position: relative;
+}
+
+.inova-heinz-hero2{
+    width: 35rem;
+    position: relative; 
 }
 
 .images-hero{
     justify-content: space-between;
     width: 100%;
     display: flex;
-    
     flex-direction: row;
     align-items: center;
 }
@@ -146,24 +136,32 @@ a {
 /* esg apresentação */
 
 .esg-page{
-    width: 100%;
-    margin-top: 10rem;
-    padding: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
 }
 
 .img-letsmake img{
     width: 25rem;
-    padding: 3rem;
 }
 .text-esg{
     font-size: 1.5rem;
     width: 60vh;
-    margin: 8rem;
+    margin: 8rem 0;
+}
+
+.carrossel {
+    width: 650px;
+    height: 500px;
+    margin: 0 auto; /* Centralize o carrossel horizontalmente na página */
+}
+
+/* Estilize as imagens dentro do carrossel para que se ajustem às dimensões */
+.carrossel img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; /* Mantenha a proporção e ajuste a imagem ao contêiner */
 }
 
 .img-comunidade, .img-gestao, .img-ambiente{
@@ -179,9 +177,9 @@ a {
     flex-direction: row;
 
     align-items: center;
-    margin: 6rem;
    
 }
+
 
 .footer{
     width: 100%
@@ -190,3 +188,5 @@ a {
     width: 15rem;
     margin-top: 8rem;
 }
+
+
