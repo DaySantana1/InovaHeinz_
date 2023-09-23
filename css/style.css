@@ -57,7 +57,7 @@ a {
     /* alinhamento horizontal */
     justify-content: space-between;
 
-    padding: 0.5rem 2rem;
+    padding: 4rem 8rem;
 
     /* alinhamento vertical */
     align-items: center;
@@ -74,13 +74,16 @@ a {
 }
 
 .img-header{
-    width: 20rem;
+    width: 22rem;
 }
 
 /* hero */
 .hero{
-    min-height: 80vh;
-    background: url(../images/fundohero.png);
+    width: 100%;
+    height: 75vh;
+    background: url(../images/Rectangle\ 12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .btn-colaborador{
@@ -98,11 +101,11 @@ a {
     justify-content: center;
     text-align: center;
     height: 45vh;
-    /* margin: 3rem 0; */
+    
 }
 
 .hraft-heinz-hero{
-    width:22rem;
+    width:25rem;
 }
 
 .btn-cadastro{
@@ -110,16 +113,16 @@ a {
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     font-size: 1.5rem;
-    margin: 2rem;
+    margin: 4rem;
 }
 
 .hero-text{
-    font-size: 1.5rem;
-    width: 100vh;
+    font-size: 2rem;
+    width: 60vh;
 }
 
 .inova-heinz-hero1, .inova-heinz-hero2{
- width: 23rem;
+ width: 30rem;
  position: relative;
 
  
@@ -144,6 +147,7 @@ a {
 
 .esg-page{
     width: 100%;
+    margin-top: 10rem;
     padding: 5rem;
     display: flex;
     flex-direction: column;
@@ -158,7 +162,7 @@ a {
 }
 .text-esg{
     font-size: 1.5rem;
-    width: 100vh;
+    width: 60vh;
     margin: 8rem;
 }
 
