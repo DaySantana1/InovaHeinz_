@@ -16,20 +16,19 @@
 .texto{
 
     color: #1D3B6D;
-}
-
-.img3 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin-bottom: 20px; /
-    margin-left: 20px; 
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
 }
 
 .img4 {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin-bottom: 20px; /* Ajuste o valor da margem conforme necessário para aumentar ou diminuir o espaçamento */
-    margin-right: 20px; /* Ajuste o valor da margem conforme necessário para aumentar ou diminuir o espaçamento */
+    width: 300px;
+}
+
+.img3 {
+    width: 295px;
+}
+
+.bg-bege{
+    background-color: #FFFAF0;
+    width: 50%;
 }
