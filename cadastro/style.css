@@ -21,14 +21,18 @@
 }
 
 .img4 {
-    width: 300px;
+    width: 230px;
 }
 
 .img3 {
-    width: 295px;
+    width: 225px;
 }
 
 .bg-bege{
     background-color: #FFFAF0;
     width: 50%;
+}
+
+.img2{
+    width: 500px;
 }
