@@ -45,9 +45,7 @@ a {
 }
 
 /* formatação header */
-.home{
-    background: url(../images/fundohero.png);
-}
+
 
 .header{
     display: flex;
@@ -74,7 +72,7 @@ a {
 .hero{
     width: 100%;
     height: 75vh;
-    background: url(../images/Rectangle\ 12.png);
+    background: url(../images/Group\ 23\ \(2\).png);
     background-repeat: no-repeat;
     background-size: cover;
 }
