@@ -55,17 +55,17 @@ a {
     text-align: center;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 4rem 8rem;
+    padding: 2rem;
     position: relative;
 }
 
 .inova-heinz-header{
     width: 22rem;
+    text-align: center;
 }
 
 .img-header{
     width: 22rem;
-    
     text-align: center;
 
 }
@@ -102,31 +102,30 @@ a {
 
 .btn-cadastro{
     background-color: var(--red);
-    padding: 1rem;
-    border-radius: 0.5rem;
-    font-size: 2rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
 }
 
 .hero-text{
-    font-size: 2rem;
-    width: 60vh;
-    margin: 5rem 0;
+    font-size: 1.8rem;
+    width: 80vh;
+    margin: 3rem 0;
 }
 
 .inova-heinz-hero1{
-    margin: 0 5rem;
-    width: 33rem;
-    position: relative;
+    margin: 0 3rem;
+    width: 20%;
 }
 
 .inova-heinz-hero2{
-    width: 35rem;
-    position: relative; 
+    width: 20%;
 }
 
 .images-hero{
     justify-content: space-between;
     width: 100%;
+    height: 30vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -136,18 +135,21 @@ a {
 /* esg apresentação */
 
 .esg-page{
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 8rem 0;
 }
 
 .img-letsmake img{
     width: 25rem;
+    
 }
 .text-esg{
     font-size: 1.5rem;
-    width: 60vh;
+    width: 80vh;
     margin: 8rem 0;
 }
 
