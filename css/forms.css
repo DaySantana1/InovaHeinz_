@@ -32,8 +32,6 @@ a {
 /**********************/
 
 .container{
-    display: flex;
-    justify-content: space-between;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -41,10 +39,9 @@ a {
 }
 
 .fundo {
-    display: flex;
-    align-items: center;
     height: 100%;
     position: fixed;
+    float: left;
 }
 
 .fundo img {
@@ -60,4 +57,30 @@ a {
     position: fixed;
 }
 
+/* formulario *************************/
+.formulario{
+    margin: 1% 6%;
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 60%;
+    float: right;
+    height: 100%;
+}
 
+.formulario h1, h2{
+    color: var(--dark-blue);
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
+.formulario p label{
+    font-size: 2rem;
+}
+
+.forms-page{
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
