@@ -1,0 +1,63 @@
+/* reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* variáveis*/
+:root {
+    --dark-blue: #1D3C6D;
+    --light: #fff;
+    --red: #E32726;
+}
+
+/* Formatações genéricas */
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #F4FBF3;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--light);
+    font-size: 1rem;
+}
+
+/**********************/
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.fundo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: fixed;
+}
+
+.fundo img {
+    max-width: 50vh;
+    height: 100% ;
+    
+}
+
+.logo-inova{
+    position: absolute;
+    width: 20vh;
+    margin: 2rem 10rem;
+    position: fixed;
+}
+
+
