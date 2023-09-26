@@ -37,7 +37,7 @@ a {
 
 .container{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -72,7 +72,7 @@ a {
 .hero{
     width: 100%;
     height: 75vh;
-    background: url(../images/Group\ 23\ \(2\).png);
+    background: url(../images/fundohome.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -133,6 +133,9 @@ a {
 /* esg apresentação */
 
 .esg-page{
+    
+    width: 100%;
+    height: 50vh;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -146,23 +149,12 @@ a {
     
 }
 .text-esg{
-    font-size: 1.5rem;
-    width: 80vh;
+    font-size: 2rem;
+    width: 70vh;
     margin: 8rem 0;
 }
 
-.carrossel {
-    width: 650px;
-    height: 500px;
-    margin: 0 auto; /* Centralize o carrossel horizontalmente na página */
-}
 
-/* Estilize as imagens dentro do carrossel para que se ajustem às dimensões */
-.carrossel img {
-    width: 100%;
-    height: 500px;
-    object-fit: cover; /* Mantenha a proporção e ajuste a imagem ao contêiner */
-}
 
 .img-comunidade, .img-gestao, .img-ambiente{
     width: 10rem;
@@ -173,12 +165,12 @@ a {
     width: 100%;
     justify-content: space-evenly;
     display: flex;
-    
     flex-direction: row;
-
+    font-size: 1.5rem;
     align-items: center;
    
 }
+
 
 
 .footer{
@@ -186,7 +178,7 @@ a {
 }
 .footer img{
     width: 15rem;
-    margin-top: 8rem;
+    margin: 5rem;
 }
 
 
