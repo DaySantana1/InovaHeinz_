@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,83 +13,148 @@
 
     <link rel="stylesheet" href="./css/forms.css">
 </head>
+
 <body>
 
-   <div class="container">
-    <div class="forms-page">
-       <div class="img-fundo">
-        <img class="fundo"src="./images/carrossel/kraft-heinz-glass-bottle-1024x577 1.png">
-        <img class="logo-inova" src="./images/inovaheinzlogo.png">
-        <img class="logo-kraft" src="./images/kraftheinzlogo.png">
-       </div>
-    
-    <div class="formulario">
-    <img class="tomato" src="./images/heroimg4.png">
-    <h1>Sustentabilidade, Responsabilidade e Governança </h1>
-    <form action="" method="post">
-        <h2>Ecológico:</h2>
-        <p>
-            <label class="perguntas">1. Você considera os produtos Heinz de fácil reciclagem?</label><br>
-            <input type="radio" name="reciclagem" value="Sim" class="radio"> Sim
-            <input type="radio" name="reciclagem" value="Não" class="radio"> Não
-        </p>
-        <p>
-            <label>2. Você acredita que os ingredientes utilizados nos produtos da Heinz são sustentáveis e ecologicamente responsáveis?</label><br>
-            <input type="radio" name="ingredientes_sustentaveis" value="Sim" class="radio"> Sim
-            <input type="radio" name="ingredientes_sustentaveis" value="Não" class="radio"> Não
-        </p>
-        <p>
-            <label>3. Você considera as embalagens da Heinz eco-friendly (biodegradáveis, recicláveis)?</label><br>
-            <input type="radio" name="embalagens_eco_friendly" value="Sim" class="radio"> Sim
-            <input type="radio" name="embalagens_eco_friendly" value="Não" class="radio"> Não
-        </p>
-        <p>
-            <label>4. O quão eficaz você considera que a Kraft Heinz é em oferecer produtos com reduzido impacto ambiental e animal, como opções vegetarianas ou veganas? (0 a 10)</label><br>
-            <div class="range">
-            <input type="range" name="impacto_ambiental" min="0" max="10" step="1" class="slider" value=0>
-            <div class="value">10</div>
+    <div class="container">
+        <div class="forms-page">
+            <div class="img-fundo">
+                <img class="fundo" src="./images/carrossel/kraft-heinz-glass-bottle-1024x577 1.png">
             </div>
-        </p>
+            <div class="logo-container">
+                <img class="logo-inova" src="./images/inovaheinzlogo.png">
+                <img class="logo-kraft" src="./images/kraftheinzlogo.png">
+            </div>
 
-        <h2>Social:</h2>
-        <p>
-            <label>5. Você considera os produtos da Heinz como nutricionalmente benéficos?</label><br>
-            <input type="radio" name="nutricionalmente_beneficos" value="Sim" class="radio"> Sim
-            <input type="radio" name="nutricionalmente_beneficos" value="Não" class="radio"> Não
-        </p>
-        <p>
-            <label>6. Os produtos da Kraft Heinz atendem às suas expectativas em termos de impacto na saúde e bem-estar do consumidor?</label><br>
-            <input type="radio" name="impacto_na_saude" value="Sim" class="radio"> Sim
-            <input type="radio" name="impacto_na_saude" value="Não" class="radio"> Não
-        </p>
-        <p>
-            <label>7. Quão importante é para você que a Kraft Heinz promova ações em comunidades locais/fragilizadas? (0 a 10)</label><br>
-            <input type="range" name="acoes_comunitarias" min="0" max="10" step="1" class="slider" value=0>
-        </p>
-        <p>
-            <label>8. Quão diversificada você acha que é a linha de produtos Heinz (considerando diabéticos, pessoas com restrições alimentares, alérgicos...)? (0 a 10)</label><br>
-            <input type="range" name="diversidade_de_produtos" min="0" max="10" step="1" class="slider" value=0>
-        </p>
+            <div class="formulario">
+                <img class="tomato" src="./images/heroimg4.png">
+                <h1>Sustentabilidade, Responsabilidade e Governança </h1>
+                <form action="" method="post">
+                    <!--<h2>Ecológico:</h2>-->
+                    <p>
+                        <label>1. Você considera os produtos Heinz de fácil reciclagem?</label><br>
+                        <div class="radio-check">
+                            <label class="sim">
+                                <input type="radio" name="nutricionalmente_beneficos" value="Sim" class="radio"> Sim
+                            </label>
+                            <label class="nao">
+                                <input type="radio" name="nutricionalmente_beneficos" value="Não" class="radio"> Não
+                            </label>
+                        </div>
+                    </p>
+                    <p>
+                        <label>2. Você acredita que os ingredientes utilizados nos produtos da Heinz são sustentáveis e
+                            ecologicamente responsáveis?</label><br>
+                            <div class="radio-check">
+                                <div class="sim">
+                                    <input type="radio" name="nutricionalmente_beneficos" value="Sim" class="radio"> Sim
+                                </div>
+                                <div class="nao">
+                                    <input type="radio" name="nutricionalmente_beneficos" value="Não" class="radio"> Não
+                                </div>
+                            </div>
+                    </p>
+                    <p>
+                        <label>3. Você considera as embalagens da Heinz eco-friendly (biodegradáveis,
+                            recicláveis)?</label><br>
+                            <div class="radio-check">
+                                <div class="sim">
+                                    <input type="radio" name="nutricionalmente_beneficos" value="Sim" class="radio"> Sim
+                                </div>
+                                <div class="nao">
+                                    <input type="radio" name="nutricionalmente_beneficos" value="Não" class="radio"> Não
+                                </div>
+                            </div>
+                    </p>
+                    <p>
+                        <label>4. O quão eficaz você considera que a Kraft Heinz é em oferecer produtos com reduzido
+                            impacto ambiental e animal, como opções vegetarianas ou veganas? (0 a 10)</label><br>
+                        <div class="range">
+                            <input type="range" name="impacto_ambiental" min="0" max="10" step="1" class="slider"
+                                value=0>
+                            <div class="value">10</div>
+                        </div>
+                    </p>
 
-        <h2>Governança:</h2>
-        <p>
-            <label>9. Quão transparente você acha que a Kraft Heinz é em relação às práticas de governança corporativa, regras de administração, operações internas? (0 a 10)</label><br>
-            <input type="range" name="transparencia" min="0" max="10" step="1" class="slider" value=0>
-        </p>
-        <p>
-            <label>10. Você considera a empresa da Heinz como inclusiva e aberta às minorias?</label><br>
-            <input type="radio" name="inclusiva" value="Sim" class="radio"> Sim
-            <input type="radio" name="inclusiva" value="Não" class="radio"> Não
-        </p>
+                    <!--<h2>Social:</h2>-->
+                    <p>
+                        <label>5. Você considera os produtos da Heinz como nutricionalmente benéficos?</label><br>
+                        <div class="radio-check">
+                            <div class="sim">
+                                <input type="radio" name="nutricionalmente_beneficos" value="Sim" class="radio"> Sim
+                            </div>
+                            <div class="nao">
+                                <input type="radio" name="nutricionalmente_beneficos" value="Não" class="radio"> Não
+                            </div>
+                        </div>
+                    </p>
+                    <p>
+                        <label>6. Os produtos da Kraft Heinz atendem às suas expectativas em termos de impacto na saúde
+                            e bem-estar do consumidor?</label><br>
+                            <div class="radio-check">
+                                <div class="sim">
+                                    <input type="radio" name="nutricionalmente_beneficos" value="Sim" class="radio"> Sim
+                                </div>
+                                <div class="nao">
+                                    <input type="radio" name="nutricionalmente_beneficos" value="Não" class="radio"> Não
+                                </div>
+                            </div>
+                    </p>
+                    <p>
+                        <label>7. Quão importante é para você que a Kraft Heinz promova ações em comunidades
+                            locais/fragilizadas? (0 a 10)</label><br>
+                        <div class="range">
+                            <input type="range" name="impacto_ambiental" min="0" max="10" step="1" class="slider"
+                                value=0>
+                            <div class="value">10</div>
+                        </div>
+                    </p>
+                    <p>
+                        <label>8. Quão diversificada você acha que é a linha de produtos Heinz (considerando diabéticos,
+                            pessoas com restrições alimentares, alérgicos...)? (0 a 10)</label><br>
+                        <div class="range">
+                            <input type="range" name="impacto_ambiental" min="0" max="10" step="1" class="slider"
+                                value=0>
+                            <div class="value">10</div>
+                        </div>
+                    </p>
 
-        <input type="submit" value="Enviar" class="enviar">
-    </form>
-   </div>
-   <div class="imagebotton">
-    <img class="vetor1" src="./images/vetor1.png"> 
-   </div>
+                    <!--<h2>Governança:</h2>-->
+                    <p>
+                        <label>9. Quão transparente você acha que a Kraft Heinz é em relação às práticas de governança
+                            corporativa, regras de administração, operações internas? (0 a 10)</label><br>
+                        <div class="range">
+                            <input type="range" name="impacto_ambiental" min="0" max="10" step="1" class="slider"
+                                value=0>
+                            <div class="value">10</div>
+                        </div>
+                    </p>
+                    <p>
+                        <label>10. Você considera a empresa da Heinz como inclusiva e aberta às minorias?</label><br>
+                        <div class="radio-check">
+                            <div class="sim">
+                                <input type="radio" name="nutricionalmente_beneficos" value="Sim" class="radio"> Sim
+                            </div>
+                            <div class="nao">
+                                <input type="radio" name="nutricionalmente_beneficos" value="Não" class="radio"> Não
+                            </div>
+                        </div>
+                    </p>
+
+                    
+                    <div class="button-container">
+                        <input type="submit" value="Enviar" class="enviar">
+                        <input type="button" value="Voltar" class="voltar">
+                      </div>
+                      
+                </form>
+            </div>
+            <div class="imagebotton">
+                <img class="vetor1" src="./images/vetor1.png">
+            </div>
+        </div>
     </div>
-   </div>
-   <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>

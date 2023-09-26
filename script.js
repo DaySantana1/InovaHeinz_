@@ -1,8 +1,16 @@
-const slider = document.querySelector(".slider");
-const value = document.querySelector(".value");
-
-value.textContent = slider.value;
-slider.oninput =function(){
-    value.textContent = this.value;
-}
-
+document.addEventListener("DOMContentLoaded", function () {
+    const ranges = document.querySelectorAll(".range");
+  
+    ranges.forEach(function (range) {
+      const slider = range.querySelector(".slider");
+      const value = range.querySelector(".value");
+  
+      function updateSliderValue() {
+        value.textContent = slider.value;
+      }
+  
+      slider.addEventListener("input", updateSliderValue);
+      updateSliderValue(); // Atualize o valor inicial
+    });
+  });
+  
