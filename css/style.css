@@ -14,7 +14,7 @@
 
 /* Formatações genéricas */
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: var(--dark-blue);
 }
 
@@ -31,6 +31,15 @@ a {
 
 .esg-page p{
     color: var(--light);
+}
+
+p{
+    font-weight: 400;
+}
+
+h2, h1{
+    
+    font-weight: 600;
 }
 
 /* container */
@@ -101,10 +110,11 @@ a {
 
 .btn-cadastro{
     background-color: var(--red);
-    padding: 0.5rem;
-    border-radius: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
     font-size: 1.5rem;
 }
+
 
 .hero-text{
     font-size: 1.8rem;
@@ -150,7 +160,7 @@ a {
 }
 .text-esg{
     font-size: 2rem;
-    width: 70vh;
+    width: 100vh;
     margin: 8rem 0;
 }
 

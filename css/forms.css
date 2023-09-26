@@ -10,11 +10,20 @@
     --dark-blue: #1D3C6D;
     --light: #fff;
     --red: #E32726;
+    --light-red: #fd3e3e;
+    --green-light: rgb(122, 235, 122);
+    --green: #35881c;
+    --yellow: #DBA328;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
 /* Formatações genéricas */
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #F4FBF3;
 }
 
@@ -23,15 +32,28 @@ html {
     font-size: 62.5%;
 }
 
-a {
+a{
     text-decoration: none;
     color: var(--light);
     font-size: 1rem;
 }
 
+p{
+    font-weight: 400;
+}
+
+h2, h1{
+    
+    font-weight: 600;
+}
+
 /**********************/
 
 .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -42,22 +64,33 @@ a {
     height: 100%;
     position: fixed;
     float: left;
+    left: 0;
 }
 
 .fundo img {
-    max-width: 50vh;
+    max-width: 70vh;
     height: 100% ;
     
 }
 
 .logo-inova{
-    position: absolute;
-    width: 20vh;
-    margin: 2rem 10rem;
+    width: 30vh;
+    margin: 2rem 5rem;
     position: fixed;
 }
 
+.logo-kraft{
+    width: 25vh;
+    margin: 2rem 6rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+}
+
 /* formulario *************************/
+
+
 .formulario{
     margin: 1% 6%;
     font-size: 1.5rem;
@@ -65,22 +98,97 @@ a {
     width: 60%;
     float: right;
     height: 100%;
+    
+}
+
+.tomato{
+    width: 22rem;
+    text-align: center;
 }
 
 .formulario h1, h2{
     color: var(--dark-blue);
     text-align: center;
     font-size: 3rem;
-    margin: 2rem 0;
+    margin: 1.5rem 0;
 }
 
-.formulario p label{
+.formulario p{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.radio{
+    appearance: none;
+    background-color: rgb(218, 218, 218);
+    width: 15px;
+    height: 15px;
+    border: 1px solid #929292;
+    border-radius: 10px;
+}
+
+.radio:checked {
+    background-color: var(--light-red); /* Cor de fundo quando marcado (substitua pela cor desejada) */
+    border-color: var(--light-red); /* Cor da borda quando marcado (opcional) */
+    border: 1px solid #ff0000;
+}
+
+.slider{
+    width: 80%;
+    appearance: none;
+    background-color: var(--green-light);
+    border-radius: 10px;
+    padding: 1px;
+    margin: 2rem 0;
+    height: 10px;
+}
+
+.slider::-webkit-slider-thumb{
+    appearance: none;
+    display: block;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    background-color: rgb(33, 143, 33);
+    border-radius: 10px;
+}
+
+
+
+.range{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.value{
+    color: var(--green);
+    font-weight: bold;
     font-size: 2rem;
 }
 
-.forms-page{
-    justify-content: space-between;
-    width: 100%;
-    flex-direction: row;
-    align-items: center;
+.enviar{
+    border: 1px solid var(--light-red);
+    background-color: var(--red);
+    padding: 0.5rem 3rem;
+    color: white;
+    font-size: 2rem;
+    border-radius: 1rem;
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+}
+
+.enviar:hover{
+    border: none;
+    background-color: var(--yellow);
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.vetor1{
+    position: fixed;
+    bottom: 5px; /* Ajuste a distância vertical a partir do fundo conforme necessário */
+    right: 0; /* Ajuste a distância horizontal a partir da direita conforme necessário */
+    color: #fff;
+    padding: 10px;
+    width: 10rem;
 }
