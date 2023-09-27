@@ -1,13 +1,13 @@
-function abrirModal(carregarModal) {
-    console.log("carregar a janela modal: " + carregarModal);
-    var modal = document.getElementById(carregarModal); // Use carregarModal diretamente
+const openModalButton = document.querySelector("#open-modal");
+const closeModalButton = document.querySelector("#close-modal");
+const modal = document.querySelector("#modal");
+const fade = document.querySelector("#fade");
 
-    if (modal) {
-        modal.style.display = 'block';
-    }
-}
+const toggleModal = () => {
+  modal.classList.toggle("hide");
+  fade.classList.toggle("hide");
+};
 
-
-function fecharModal(fecharModal){
-    console.log("fechar janela modal: " + fecharModal);
-}
+[openModalButton, closeModalButton, fade].forEach((el) => {
+  el.addEventListener("click", () => toggleModal());
+});

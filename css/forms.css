@@ -32,18 +32,19 @@ html {
     font-size: 62.5%;
 }
 
-a{
+a {
     text-decoration: none;
     color: var(--light);
     font-size: 1rem;
 }
 
-p{
+p {
     font-weight: 400;
 }
 
-h2, h1{
-    
+h2,
+h1 {
+
     font-weight: 600;
 }
 
@@ -54,13 +55,16 @@ h2, h1{
 
 .img-fundo {
     max-width: 70vh;
-    position: relative; /* Adicione posição relativa para posicionar as logos */
+    position: relative;
+    /* Adicione posição relativa para posicionar as logos */
 }
+
 .fundo {
     max-width: 70vh;
     height: 100%;
     position: fixed;
-    left: 0; /* Fixa à esquerda */
+    left: 0;
+    /* Fixa à esquerda */
 }
 
 /* Estilize as logos */
@@ -72,7 +76,7 @@ h2, h1{
 }
 
 .logo-inova {
-    width: 25vh; 
+    width: 25vh;
     position: fixed;
     margin: 2rem;
 }
@@ -84,7 +88,7 @@ h2, h1{
     margin: 2rem;
 }
 
-.container{
+.container {
     width: 100%;
     flex-direction: column;
     display: flex;
@@ -100,53 +104,60 @@ h2, h1{
 /* formulario *************************/
 
 
-.formulario{
+.ESG {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: justify;
-    max-width: 60%; /* Defina a largura máxima desejada para o formulário */
-    margin-left: auto; /* Coloque o formulário à direita da tela */
-    margin-right: 5%; /* Adicione um espaço à direita para separar o conteúdo da borda da tela */
+    width: 90%;
+    max-width: 60%;
+    /* Defina a largura máxima desejada para o formulário */
+    margin-left: auto;
+    /* Coloque o formulário à direita da tela */
+    margin-right: 8%;
+    /* Adicione um espaço à direita para separar o conteúdo da borda da tela */
     position: relative;
     padding: 3rem 0;
 }
 
-.tomato{
-    width: 25vh;
+.tomato {
+    width: 30vh;
     text-align: center;
     align-self: center;
 }
 
-.formulario h1, h2{
+.ESG h1,
+h2 {
     color: var(--dark-blue);
     text-align: center;
     font-size: 3rem;
     margin: 1.5rem 0;
-    right: 0; 
+    right: 0;
 }
 
-.formulario p{
+.ESG p {
     font-size: 2rem;
     padding: 1rem;
     flex-direction: column;
 }
 
-.radio-check{
+.radio-check {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: justify;
     font-size: 2rem;
-    
+
 }
 
-.sim {
-    margin: 1rem 3rem; /* Adicione margem à direita para separar os inputs */
+.sim,
+.nao {
+    margin: 1rem 3rem;
+    /* Adicione margem à direita para separar os inputs */
 }
 
-.radio{
+.radio {
     appearance: none;
     background-color: rgb(218, 218, 218);
     width: 15px;
@@ -157,14 +168,16 @@ h2, h1{
 }
 
 .radio:checked {
-    background-color: var(--light-red); /* Cor de fundo quando marcado (substitua pela cor desejada) */
-    border-color: var(--light-red); /* Cor da borda quando marcado (opcional) */
+    background-color: var(--light-red);
+    /* Cor de fundo quando marcado (substitua pela cor desejada) */
+    border-color: var(--light-red);
+    /* Cor da borda quando marcado (opcional) */
     border: 1px solid #ff0000;
 }
 
 
 
-.slider{
+.slider {
     width: 80%;
     appearance: none;
     background-color: var(--green-light);
@@ -174,7 +187,7 @@ h2, h1{
     height: 10px;
 }
 
-.slider::-webkit-slider-thumb{
+.slider::-webkit-slider-thumb {
     appearance: none;
     display: block;
     width: 15px;
@@ -184,9 +197,7 @@ h2, h1{
     border-radius: 10px;
 }
 
-
-
-.range{
+.range {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -196,21 +207,21 @@ h2, h1{
     border-radius: 10px;
 }
 
-.value{
+.value {
     color: var(--green);
     font-weight: bold;
     font-size: 2rem;
 }
 
 .button-container {
-    display: flex; /* Isso faz com que os elementos fiquem em uma linha horizontal */
-    gap: 10px; /* Espaçamento entre os botões */
     display: flex;
+    gap: 10px;
     justify-content: center;
-    margin-top: 2rem;
-  }
-  
-  .enviar, .voltar {
+    margin: 2rem;
+}
+
+.enviar,
+.voltar {
     border: 1px solid var(--light-red);
     background-color: var(--red);
     padding: 0.5rem 3rem;
@@ -218,54 +229,128 @@ h2, h1{
     font-size: 2rem;
     border-radius: 0.5rem;
     cursor: pointer;
-    
-  }
-  
-  .voltar {
-    background-color: var(--dark-blue); 
+
+}
+
+.voltar {
+    background-color: var(--dark-blue);
     border: 1px solid var(--dark-blue)
-  }
-  
-  .enviar:hover {
-    background-color: var(--green); /* Cor de fundo ao passar o mouse */
+}
+
+.enviar:hover {
+    background-color: var(--green);
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     border: none;
-  }
+}
 
-  .voltar:hover{
-    background-color: var(--yellow); /* Cor de fundo ao passar o mouse */
+.voltar:hover {
+    background-color: var(--yellow);
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     border: none;
-  }
+}
 
-.vetor1{
+.vetor1 {
     position: fixed;
-    bottom: 3px; /* Ajuste a distância vertical a partir do fundo conforme necessário */
-    right: 0; /* Ajuste a distância horizontal a partir da direita conforme necessário */
+    bottom: 3px;
+    right: 0;
     padding: 10px;
     width: 8rem;
 }
 
 /*modal*/
 
-.modaltela{
-    background-color: var(--dark-blue);
+#fade {
     position: fixed;
     top: 0;
     left: 0;
-    width: 40%;
-    height: 30vh;
-    border-radius: 20px;
-    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 5;
 }
 
-.conteudo{
-    margin: 0 auto;
-    margin-top: 3%;
-    max-width: 600px;
-
+#modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    max-width: 90%;
+    color: var(--light);
+    background-color: #168DAD;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
 }
 
-h3, span{
-    font-size: 20px;
+.modal-title {
+    color: white;
+    font-weight: 500;
+}
+
+#close-modal{
+    border: 1px solid var(--light-red);
+    background-color: var(--red);
+    padding: .5rem ;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+#close-modal:hover{
+    background-color: var(--green);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border: none;
+}
+
+#fade,
+#modal {
+    transition: 0.5s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.modal-body p {
+    font-size: 1.3rem;
+    margin: 1rem;
+    text-align: justify;
+}
+
+.cupon-gera{
+    padding: 1rem 0;
+    background-color: var(--green);
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    align-self: center;
+    margin: 2rem 0;
+    width: 10rem;
+}
+
+
+.imgmodal{
+    align-self: center;
+    width: 15rem;
+    margin: 1rem 0;
+}
+
+#modal.hide,
+#fade.hide {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modal.hide {
+    top: 0;
 }
