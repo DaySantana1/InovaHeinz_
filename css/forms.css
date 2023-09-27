@@ -246,3 +246,26 @@ h2, h1{
     width: 8rem;
 }
 
+/*modal*/
+
+.modaltela{
+    background-color: var(--dark-blue);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 30vh;
+    border-radius: 20px;
+    display: none;
+}
+
+.conteudo{
+    margin: 0 auto;
+    margin-top: 3%;
+    max-width: 600px;
+
+}
+
+h3, span{
+    font-size: 20px;
+}
