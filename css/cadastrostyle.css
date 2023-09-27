@@ -1,0 +1,42 @@
+body{
+    background-color: #F4FBF3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-green{
+    background-color: #5FB046;
+    width: 50%;
+}
+
+.formulario{
+    width: 50%;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    color: #1D3B6D;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500 !important;
+}
+
+
+label{
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.img4 {
+    width: 230px;
+}
+
+.img3 {
+    width: 225px;
+}
+
+.img2{
+    width: 500px;
+}

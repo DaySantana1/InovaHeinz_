@@ -14,4 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
   
-  
+
+  function irParaCliente() {
+    // Redireciona para a página do cliente
+    window.location.href = 'cliente.html';
+}
