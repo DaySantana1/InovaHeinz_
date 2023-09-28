@@ -12,6 +12,8 @@ Principais Funcionalidades
 Visualização Interativa: Oferecemos gráficos interativos e intuitivos para facilitar a exploração de dados.
 Análise Preditiva: Utilizamos técnicas de análise preditiva para fornecer insights sobre as tendências futuras do mercado.
 
+Tecnologias Usadas 
+HTML, CSS, JavaScript e Bootstrap.
 
 Contato  
 Para mais informações sobre este projeto, entre em contato conosco:
