@@ -1,8 +1,23 @@
 .bg-yellow{
     background-color:#DBA328;
+    width: 65%; 
     
+    height: auto; 
+    position: relative; 
+    border-radius: 20px; 
+    margin: 20px auto; 
+  
 }
 
 .bg-background{
     background-color:  #FFFAF0;
+}
+
+.title{
+    color: #FFFAF0;
+}
+
+.text{
+    color: #FFFAF0;
+    font-weight: 400;
 }
