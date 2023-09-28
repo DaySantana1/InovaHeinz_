@@ -8,10 +8,6 @@ body{
     width: 50%;
 }
 
-.formulario{
-    width: 50%;
-}
-
 .div {
     display: flex;
     justify-content: center;
@@ -29,14 +25,25 @@ label{
     font-weight: 500;
 }
 
+
+
+.img1{
+    width: 30vh;
+}
+
 .img4 {
-    width: 230px;
+    width: 20vh;
+    margin-left: 2%;
+    bottom: 0;
 }
 
 .img3 {
-    width: 225px;
+    width: 20vh;
+    bottom: 0;
+    left: 0;
 }
 
 .img2{
-    width: 500px;
+    width: 50vh;
+
 }

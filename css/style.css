@@ -10,6 +10,10 @@
     --dark-blue: #1D3C6D;
     --light: #fff;
     --red: #E32726;
+    --light-red: #fd3e3e;
+    --green-light: rgb(122, 235, 122);
+    --green: #35881c;
+    --yellow: #DBA328;
 }
 
 /* Formatações genéricas */
@@ -51,6 +55,7 @@ h2, h1{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 /* formatação header */
@@ -82,8 +87,10 @@ h2, h1{
     width: 100%;
     height: 75vh;
     background: url(../images/fundohome.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     
 }
 
@@ -92,6 +99,12 @@ h2, h1{
     padding: 1rem;
     border-radius: 0.5rem;
     font-size: 1.5rem;
+}
+
+.btn-colaborador:hover{
+    background-color: var(--yellow);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border: none;
 }
 
 
@@ -115,6 +128,11 @@ h2, h1{
     font-size: 1.5rem;
 }
 
+.btn-cadastro:hover {
+    background-color: var(--green);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border: none;
+}
 
 .hero-text{
     font-size: 1.8rem;

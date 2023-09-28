@@ -61,10 +61,9 @@ h1 {
 
 .fundo {
     max-width: 70vh;
-    height: 100%;
+    max-height: 100%;
     position: fixed;
     left: 0;
-    /* Fixa à esquerda */
 }
 
 /* Estilize as logos */
@@ -102,8 +101,14 @@ h1 {
 }
 
 
+
+
 /* formulario *************************/
 
+.formulario{
+    width:100%;
+    max-width: 90%;
+}
 
 .ESG {
     display: flex;
@@ -116,7 +121,7 @@ h1 {
     /* Defina a largura máxima desejada para o formulário */
     margin-left: auto;
     /* Coloque o formulário à direita da tela */
-    margin-right: 8%;
+    margin-right: 3%;
     /* Adicione um espaço à direita para separar o conteúdo da borda da tela */
     position: relative;
     padding: 3rem 0;
@@ -135,6 +140,8 @@ h2 {
     font-size: 3rem;
     margin: 1.5rem 0;
     right: 0;
+    max-width: 90%;
+
 }
 
 .ESG p {
