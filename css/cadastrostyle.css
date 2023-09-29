@@ -21,7 +21,11 @@ html {
 .bg-green {
     background-color: #5FB046;
     width: 50%;
-    height: 100vh;
+    height: 100wh;
+}
+
+.background{
+    position: fixed;
 }
 
 .div {
