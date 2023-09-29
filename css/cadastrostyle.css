@@ -18,10 +18,10 @@ html {
     font-size: 62.5%;
 }
 
-.bg-green {
+.background-fd{
     background-color: #5FB046;
-    width: 50%;
-    height: 100wh;
+    height: 5000wh;
+    
 }
 
 .background{
@@ -50,7 +50,7 @@ label {
 
 .form-control {
     font-size: 1.5rem !important;
-
+    width: 400px !important;
 }
 
 .fomr-cadastro {
