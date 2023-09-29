@@ -16,6 +16,8 @@
     --yellow: #DBA328;
 }
 
+/* fim variáveis */
+
 /* Formatações genéricas */
 body {
     font-family: 'Montserrat', sans-serif;
@@ -33,22 +35,20 @@ a {
     font-size: 1rem;
 }
 
-.esg-page p{
-    color: var(--light);
-}
-
-p{
+p {
     font-weight: 400;
 }
 
-h2, h1{
-    
+h2,
+h1 {
     font-weight: 600;
 }
 
+/* fim formatações genéricas */
+
 /* container */
 
-.container{
+.container {
     width: 100%;
     height: 90vh;
     background-repeat: no-repeat;
@@ -58,10 +58,12 @@ h2, h1{
     background-size: cover;
 }
 
+/* fim container */
+
 /* formatação header */
 
 
-.header{
+.header {
     display: flex;
     align-items: center;
     text-align: center;
@@ -71,19 +73,33 @@ h2, h1{
     position: relative;
 }
 
-.inova-heinz-header{
+.inova-heinz-header {
     width: 22rem;
     text-align: center;
 }
 
-.img-header{
+.img-header {
     width: 22rem;
     text-align: center;
-
 }
+
+.btn-colaborador {
+    background-color: var(--dark-blue);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.btn-colaborador:hover {
+    background-color: var(--yellow);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border: none;
+}
+
+
 
 /* hero */
-.hero{
+.hero {
     width: 100%;
     height: 75vh;
     background: url(../images/fundohome.png);
@@ -91,22 +107,7 @@ h2, h1{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
 }
-
-.btn-colaborador{
-    background-color: var(--dark-blue);
-    padding: 1rem;
-    border-radius: 0.5rem;
-    font-size: 1.5rem;
-}
-
-.btn-colaborador:hover{
-    background-color: var(--yellow);
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-    border: none;
-}
-
 
 .main-hero {
     display: flex;
@@ -117,11 +118,11 @@ h2, h1{
     height: 45vh;
 }
 
-.hraft-heinz-hero{
-    width:25rem;
+.hraft-heinz-hero {
+    width: 25rem;
 }
 
-.btn-cadastro{
+.btn-cadastro {
     background-color: var(--red);
     padding: 1rem;
     border-radius: 0.5rem;
@@ -134,22 +135,22 @@ h2, h1{
     border: none;
 }
 
-.hero-text{
+.hero-text {
     font-size: 1.8rem;
     width: 80vh;
     margin: 3rem 0;
 }
 
-.inova-heinz-hero1{
+.inova-heinz-hero1 {
     margin: 0 3rem;
     width: 20%;
 }
 
-.inova-heinz-hero2{
+.inova-heinz-hero2 {
     width: 20%;
 }
 
-.images-hero{
+.images-hero {
     justify-content: space-between;
     width: 100%;
     height: 30vh;
@@ -161,7 +162,7 @@ h2, h1{
 
 /* esg apresentação */
 
-.esg-page{
+.esg-page {
     width: 100%;
     height: 50vh;
     position: absolute;
@@ -172,11 +173,16 @@ h2, h1{
     padding: 8rem 0;
 }
 
-.img-letsmake img{
-    width: 25rem;
-    
+.esg-page p {
+    color: var(--light);
 }
-.text-esg{
+
+.img-letsmake img {
+    width: 25rem;
+
+}
+
+.text-esg {
     font-size: 2rem;
     width: 100vh;
     margin: 8rem 0;
@@ -184,29 +190,30 @@ h2, h1{
 
 
 
-.img-comunidade, .img-gestao, .img-ambiente{
+.img-comunidade,
+.img-gestao,
+.img-ambiente {
     width: 10rem;
 }
 
 
-.esg-images{
+.esg-images {
     width: 100%;
     justify-content: space-evenly;
     display: flex;
     flex-direction: row;
     font-size: 1.5rem;
     align-items: center;
-   
+
 }
 
 
 
-.footer{
+.footer {
     width: 100%
 }
-.footer img{
+
+.footer img {
     width: 15rem;
     margin: 5rem;
 }
-
-

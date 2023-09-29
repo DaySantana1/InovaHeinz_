@@ -16,11 +16,6 @@
     --yellow: #DBA328;
 }
 
-html {
-    scroll-behavior: smooth;
-    font-size: 62.5%;
-}
-
 /* Formatações genéricas */
 body {
     font-family: 'Montserrat', sans-serif;
@@ -50,29 +45,21 @@ h1 {
 
 /**********************/
 
-
-/* Posicione a imagem de fundo à esquerda */
-
 .img-fundo {
     max-width: 70vh;
     position: relative;
-    /* Adicione posição relativa para posicionar as logos */
 }
 
 .fundo {
     max-width: 70vh;
     max-height: 100%;
     position: fixed;
-    left: 0;
 }
 
-/* Estilize as logos */
 .logo-container {
     display: flex;
     flex-direction: column;
     position: absolute;
-    text-align: center;
-    
 }
 
 .logo-inova {
@@ -88,7 +75,8 @@ h1 {
     margin: 2rem;
 }
 
-.container {
+/* container */
+/* .container {
     width: 100%;
     flex-direction: column;
     display: flex;
@@ -98,16 +86,16 @@ h1 {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-}
+} */
 
-
+/* fim container */
 
 
 /* formulario *************************/
 
-.formulario{
-    width:100%;
-    max-width: 90%;
+.formulario {
+    width: 100%;
+    max-width: 85%;
 }
 
 .ESG {
@@ -116,13 +104,10 @@ h1 {
     align-items: center;
     justify-content: center;
     text-align: justify;
-    width: 90%;
+    width: 100%;
     max-width: 60%;
-    /* Defina a largura máxima desejada para o formulário */
     margin-left: auto;
-    /* Coloque o formulário à direita da tela */
-    margin-right: 3%;
-    /* Adicione um espaço à direita para separar o conteúdo da borda da tela */
+    margin-right: 5%;
     position: relative;
     padding: 3rem 0;
 }
@@ -148,6 +133,7 @@ h2 {
     font-size: 2rem;
     padding: 1rem;
     flex-direction: column;
+    font-weight: 500;
 }
 
 .radio-check {
@@ -156,14 +142,9 @@ h2 {
     justify-content: center;
     text-align: justify;
     font-size: 2rem;
-
+    gap: 4rem;
 }
 
-.sim,
-.nao {
-    margin: 1rem 3rem;
-    /* Adicione margem à direita para separar os inputs */
-}
 
 .radio {
     appearance: none;
@@ -177,13 +158,8 @@ h2 {
 
 .radio:checked {
     background-color: var(--light-red);
-    /* Cor de fundo quando marcado (substitua pela cor desejada) */
-    border-color: var(--light-red);
-    /* Cor da borda quando marcado (opcional) */
     border: 1px solid #ff0000;
 }
-
-
 
 .slider {
     width: 80%;
@@ -210,7 +186,7 @@ h2 {
     align-items: center;
     justify-content: space-evenly;
     padding: 0.5rem;
-    box-shadow: 2px 2px 2px 1px rgba(179, 179, 179, 0.2);
+    box-shadow: 2px 2px 2px 2px rgba(179, 179, 179, 0.2);
     margin: 2rem;
     border-radius: 10px;
 }
@@ -228,8 +204,7 @@ h2 {
     margin: 2rem;
 }
 
-.enviar,
-.voltar {
+.enviar {
     border: 1px solid var(--light-red);
     background-color: var(--red);
     padding: 0.5rem 3rem;
@@ -242,7 +217,12 @@ h2 {
 
 .voltar {
     background-color: var(--dark-blue);
-    border: 1px solid var(--dark-blue)
+    border: 1px solid var(--dark-blue);
+    padding: 0.5rem 3rem;
+    color: white;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
 }
 
 .enviar:hover {
@@ -257,7 +237,7 @@ h2 {
     border: none;
 }
 
-.vetor1 {
+.ilustration {
     position: fixed;
     bottom: 3px;
     right: 0;
@@ -298,10 +278,10 @@ h2 {
     font-weight: 500;
 }
 
-#close-modal{
+#close-modal {
     border: 1px solid var(--light-red);
     background-color: var(--red);
-    padding: .5rem ;
+    padding: .5rem;
     color: white;
     font-size: 1.5rem;
     border-radius: 0.5rem;
@@ -309,7 +289,7 @@ h2 {
     cursor: pointer;
 }
 
-#close-modal:hover{
+#close-modal:hover {
     background-color: var(--green);
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     border: none;
@@ -331,11 +311,12 @@ h2 {
 
 .modal-body p {
     font-size: 1.3rem;
-    margin: 3rem;
+    font-weight: 600;
+    margin: 1rem 1rem 3rem 1rem;
     text-align: justify;
 }
 
-.cupon-gera{
+.cupon-gera {
     padding: 1rem 0;
     background-color: var(--green);
     border-radius: 1rem;
@@ -347,7 +328,7 @@ h2 {
 }
 
 
-.imgmodal{
+.imgmodal {
     align-self: center;
     width: 15rem;
     margin: 2rem 0;

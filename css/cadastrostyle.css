@@ -1,11 +1,27 @@
-body{
-    background-color: #F4FBF3;
+body {
+    background-color: #F4F8F3;
     font-family: 'Montserrat', sans-serif;
 }
 
-.bg-green{
+:root {
+    --dark-blue: #1D3C6D;
+    --light: #fff;
+    --red: #E32726;
+    --light-red: #fd3e3e;
+    --green-light: rgb(122, 235, 122);
+    --green: #35881c;
+    --yellow: #DBA328;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+.bg-green {
     background-color: #5FB046;
     width: 50%;
+    height: 100vh;
 }
 
 .div {
@@ -13,22 +29,32 @@ body{
     justify-content: center;
 }
 
-.title{
+.title {
     color: #1D3B6D;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500 !important;
+    font-size: 5rem;
 }
 
 
-label{
+label {
+    font-size: 1.5rem;
     margin-bottom: 0.5rem;
-    font-weight: 500;
+    font-weight: 400;
+    text-align: center;
 }
 
+.form-control {
+    font-size: 1.5rem !important;
 
+}
 
-.img1{
-    width: 30vh;
+.fomr-cadastro {
+    align-items: center;
+}
+
+.img1 {
+    width: 40vh;
 }
 
 .img4 {
@@ -43,7 +69,48 @@ label{
     left: 0;
 }
 
-.img2{
-    width: 50vh;
+.img2 {
+    width: 70vh;
 
+}
+
+.btn-cadastro {
+    border: none;
+    background-color: var(--dark-blue);
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 10rem;
+}
+
+.btn-cadastro:hover {
+    background-color: var(--green);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border: none;
+}
+
+.btn-back {
+    border: none;
+    background-color: var(--red);
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 10rem;
+}
+
+.btn-back:hover {
+    background-color: var(--yellow);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border: none;
+}
+
+.button-cadastro {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 2rem;
 }
