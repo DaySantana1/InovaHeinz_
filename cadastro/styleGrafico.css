@@ -12,6 +12,22 @@
 }
 
 .imagem{
-    margin-right: auto 100px; /* Defina a margem direita como desejar */
-    margin-left: auto 100px; /* Defina a margem esquerda como desejar */
+    margin-right: auto 100px; 
+    margin-left: auto 100px; 
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.image-container img {
+    margin-right: 20px; 
+}
+
+.text{
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 25px;
+    font-weight: light;
+
 }
