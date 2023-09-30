@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.bg-yellow{
+    background-color:#168DAD;
+    width: 65%; 
+    height: auto; 
+    position: relative; 
+    border-radius: 20px; 
+    margin: 0 auto; 
+}
+
+.bg-background{
+    background-color:  #FFFAF0;
+}
+
+.title{
+    color: #FFFAF0;
+}
+
+.text{
+    color: #FFFAF0;
+    font-weight: 400;
+}

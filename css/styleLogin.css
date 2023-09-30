@@ -1,0 +1,99 @@
+ /* reset CSS */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* variáveis*/
+:root {
+    --dark-blue: #1D3C6D;
+    --light: #fff;
+    --red: #E32726;
+    --light-red: #fd3e3e;
+    --green-light: rgb(122, 235, 122);
+    --green: #35881c;
+    --yellow: #DBA328;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.box-fluid {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bg-blue {
+    flex-grow: 1;
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1 {
+    font-size: 3rem;
+}
+
+label {
+    margin-bottom: 1rem;
+}
+
+.formulario {
+    background-color: #168DAD;
+    border-radius: 10px;
+    padding: 1rem;
+    color: white;
+}
+
+.lastimage img,
+.firstimage img {
+    width: 18rem; /* Adjust the size as needed */
+    height: auto;
+}
+
+.button-page {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.btn-cadastro {
+    border: none;
+    background-color: var(--green);
+    padding: 0.5rem;
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 6rem;
+}
+
+.btn-cadastro:hover {
+    background-color: var(--dark-blue);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border: none;
+}
+
+.btn-back {
+    border: none;
+    background-color: var(--red);
+    padding: 0.5rem;
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 6rem;
+}
+
+.btn-back:hover {
+    background-color: var(--yellow);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border: none;
+}

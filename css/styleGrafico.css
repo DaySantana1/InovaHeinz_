@@ -1,0 +1,47 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+    position: relative;
+    text-align: center;
+}
+
+.imagem{
+    margin-right: auto 100px; 
+    margin-left: auto 100px; 
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.kraftheiz-logo{
+    width: 20rem !important;
+}
+
+.image-container img {
+    justify-content: space-between;
+    width: 20rem;
+}
+
+.text{
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 2rem;
+    font-weight: light;
+    color: #1D3C6D;
+    font-weight: 200;
+}

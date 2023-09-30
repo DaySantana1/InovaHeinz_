@@ -20,13 +20,9 @@ html {
 
 .background-fd{
     background-color: #5FB046;
-    height: 5000wh;
-    
+    height: 100vh;
 }
 
-.background{
-    position: fixed;
-}
 
 .div {
     display: flex;
@@ -50,7 +46,6 @@ label {
 
 .form-control {
     font-size: 1.5rem !important;
-    width: 400px !important;
 }
 
 .fomr-cadastro {
@@ -58,7 +53,9 @@ label {
 }
 
 .img1 {
-    width: 40vh;
+    margin-top: 1rem;
+    width: 30vh;
+    position: fixed;
 }
 
 .img4 {
@@ -73,8 +70,12 @@ label {
     left: 0;
 }
 
-.img2 {
+.img2 { 
     width: 70vh;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    transform: translate(-25%, -25%);
 
 }
 
