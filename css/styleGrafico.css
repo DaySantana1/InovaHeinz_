@@ -30,7 +30,7 @@ body {
 }
 
 .kraftheiz-logo{
-    width: 20rem !important;
+    width: 17rem !important;
 }
 
 .image-container img {
@@ -40,8 +40,12 @@ body {
 
 .text{
     font-family: 'Inter Tight', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: light;
     color: #1D3C6D;
     font-weight: 200;
+}
+
+.powerbi-graphs img{
+    width: 70%;
 }
